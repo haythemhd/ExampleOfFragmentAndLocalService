@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFrag2"
+    tools:context="haythem.hd.applicationfragment.FragmentTwo">
+    <TextView
+        android:id="@+id/tv_2_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Fragment One"
+        android:layout_centerHorizontal="true"
+        />
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_2_welcome"
+        android:text="@string/hello_blank_fragment" />
+
+</RelativeLayout>

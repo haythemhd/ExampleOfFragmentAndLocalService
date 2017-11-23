@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFrag1"
+    tools:context="haythem.hd.applicationfragment.FragmentOne">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+        android:id="@+id/tv_one_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Fragment One"
+        android:layout_centerHorizontal="true"
+            />
+        <EditText
+            android:id="@+id/et_one_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Text To FRAGMENT B"
+            android:layout_below="@+id/tv_one_welcome"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:id="@+id/bt_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_one_data"
+            android:layout_centerHorizontal="true"
+            android:text="Send To fragment B"
+            />
+    </RelativeLayout>
+</FrameLayout>

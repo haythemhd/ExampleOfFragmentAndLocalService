@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+            android:id="@+id/serviceBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Service" />
+
+        <Button
+            android:id="@+id/servicestopBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Service" />
+
+
+        <Button
+            android:id="@+id/LocalBroadcastManager_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LocalBroadcastManager " />
+
+        <Button
+            android:id="@+id/launch_mode_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Launch Mode" />
+
+        <Button
+            android:id="@+id/btn_frag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment 3" />
+
+        <Button
+            android:id="@+id/btn_frag4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment 4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+             <fragment
+               android:id="@+id/fragment_one"
+               android:name="haythem.hd.applicationfragment.FragmentOne"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/fragment_two"
+                android:name="haythem.hd.applicationfragment.FragmentTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+</LinearLayout>
